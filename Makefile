@@ -15,6 +15,9 @@ $(PROJECT):
 clean:
 	@rm $(PROJECT)-*.rockspec
 
+remove:
+	@luarocks remove $(PROJECT)
+
 export LUA_PATH=;;src/?.lua;unittest/?.lua
 
 test:

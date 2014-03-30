@@ -16,6 +16,7 @@ dependencies = {
    "lua >= 5.1",
    "luasocket",
    "luasec",
+   "zklua",
    "busted >= 1.10.0"
 }
 
